@@ -24,15 +24,17 @@ namespace NewFCs
             if (pState.fullComboState == FullComboState.Great ) {
                 TMP_Text[] array = pState.Hud.fcTexts;
                 for (int i = 0; i < array.Length; i++) {
-                    array[i].text = "GFC+";
+                    array[i].text = "GFC";
                 }
             }
+            /*
             else if (pState.fullComboState == FullComboState.Good) {
                 TMP_Text[] array = pState.Hud.fcTexts;
                 for (int i = 0; i < array.Length; i++) {
                     array[i].text = "GFC";
                 }
             }
+            */
             else if (pState.fullComboState == FullComboState.PerfectPlus) {
                 TMP_Text[] array = pState.Hud.fcTexts;
                 for (int i = 0; i < array.Length; i++) {
